@@ -21,7 +21,7 @@ This starter boilerplate gives you Gatsby configuration files that you can use t
 
     ```shell
     # create a new Gatsby site using the the boilerplate
-    gatsby new my-site https://github.com/MicrosoftDocs/mslearn-create-publish-static-serverless-website 
+    npx gatsby new my-site https://github.com/MicrosoftDocs/mslearn-create-publish-static-serverless-website 
     ```
 
 1. **Start development server.**
@@ -30,7 +30,7 @@ This starter boilerplate gives you Gatsby configuration files that you can use t
 
     ```shell
     cd my-site/
-    gatsby develop
+    npm run develop
     ```
 
     Your site will run at `http://localhost:8000`.
