@@ -7,47 +7,52 @@ products:
 description: "Add 150 character max description"
 urlFragment: "update-this-to-unique-url-stub"
 ---
+<!-- Not sure if I am allowed to update this section above . So decided to not change it. -->
 
-# Official Microsoft Sample
+## Gatsby starter boilerplate 
 
-<!-- 
-Guidelines on README format: https://review.docs.microsoft.com/help/onboard/admin/samples/concepts/readme-template?branch=master
+This starter boilerplate gives you Gatsby configuration files that you can use to build your Gatsby website.
 
-Guidance on onboarding samples to docs.microsoft.com/samples: https://review.docs.microsoft.com/help/onboard/admin/samples/process/onboarding?branch=master
+## How to use this boilerplate
 
-Taxonomies for products and languages: https://review.docs.microsoft.com/new-hope/information-architecture/metadata/taxonomies?branch=master
--->
+1. **Create a Gatsby site.**
 
-Give a short description for your sample here. What does it do and why is it important?
+    Use the Gatsby CLI to create a new site, specifying the hello-world starter.
+
+    ```shell
+    # create a new Gatsby site using the the boilerplate
+    npx gatsby new my-site https://github.com/MicrosoftDocs/mslearn-create-publish-static-serverless-website 
+    ```
+
+1. **Start development server.**
+
+    Navigate into your new site’s directory and start it up.
+
+    ```shell
+    cd my-site/
+    npm run develop
+    ```
+
+    Your site will run at `http://localhost:8000`.
 
 ## Contents
 
-Outline the file contents of the repository. It helps users navigate the codebase, build configuration and any related assets.
-
 | File/folder       | Description                                |
 |-------------------|--------------------------------------------|
-| `src`             | Sample source code.                        |
 | `.gitignore`      | Define what to ignore at commit time.      |
-| `CHANGELOG.md`    | List of changes to the sample.             |
-| `CONTRIBUTING.md` | Guidelines for contributing to the sample. |
-| `README.md`       | This README file.                          |
-| `LICENSE`         | The license for the sample.                |
+|`/node_modules`|This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.  |
+|`/src`| This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”. |
+|`.gitignore`   |This file tells git which files it should not track / not maintain a version history for.|
+|`.prettierrc`|This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.|
+|`gatsby-browser.js`|This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.|
+|`gatsby-config.js`| This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail). |
+|`gatsby-node.js`| This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.  |
+|`gatsby-ssr.js` | This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering. |
+|`package-lock.json`| (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project (you won’t change this file directly) |
+| `README.md`       | A text file containing useful reference information about your project.                        |
+| `LICENSE`         | Gatsby is licensed under the MIT license.            |
 
-## Prerequisites
 
-Outline the required components and tools that a user might need to have on their machine in order to run the sample. This can be anything from frameworks, SDKs, OS versions or IDE releases.
-
-## Setup
-
-Explain how to prepare the sample once the user clones or downloads the repository. The section should outline every step necessary to install dependencies and set up any settings (for example, API keys and output folders).
-
-## Runnning the sample
-
-Outline step-by-step instructions to execute the sample and see its output. Include steps for executing the sample from the IDE, starting specific services in the Azure portal or anything related to the overall launch of the code.
-
-## Key concepts
-
-Provide users with more context on the tools and services used in the sample. Explain some of the code that is being used and how services interact with each other.
 
 ## Contributing
 
